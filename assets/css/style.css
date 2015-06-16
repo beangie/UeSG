@@ -1,0 +1,110 @@
+/*	--------------------------------------------------
+	:: Globals
+	-------------------------------------------------- */
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/*	--------------------------------------------------
+	:: HEADER
+	-------------------------------------------------- */
+header .navbar-default{
+  background-color: #0d0d0d;
+  min-height: 100px;
+  border:none;
+}
+header .logo{
+  padding: 28px 0;
+}
+header .navbar-default ul{
+  margin-left: 140px;
+  margin-top: 25px;
+}
+header .navbar-default ul li a{
+  color: #fff !important; 
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+header .navbar-default ul li a i{
+  padding-left: 5px;
+  font-size: 18px;
+}
+header .navbar-default ul li.active a,
+header .navbar-default ul li a:hover{
+  background-color: inherit !important;
+  color: #ffce54 !important;
+}
+
+.wrap{
+  background: url(../img/bg.jpg) 100% 0 repeat fixed;
+  background-size: 300%;
+  min-height: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+/*  --------------------------------------------------
+  :: SLIDER
+  -------------------------------------------------- */
+.banner{
+  margin-top: -100px;
+}
+.banner .slider, .banner .banner-item{
+  padding: 0;
+}
+.banner .banner-item{
+  position: relative;
+}
+.banner .banner-item img{
+  width: 100%;
+}
+.banner .banner-item .data{
+  color: #fff;
+  font-family: 'Ubuntu';
+  position: absolute;
+  top: 78px;
+  left: 0;
+  text-align: center;
+}
+.banner .slider .banner-item .item .data{
+  max-width: 320px;
+  left: 27%;
+}
+.banner .banner-item .data span{
+  color: #ffce54;
+  font-size: 13px;
+  font-weight: bold;
+}
+.banner .banner-item .data .subtitle{
+  font-weight: normal;
+  margin-top: -8px;
+}
+.banner .banner-item .data p{
+  font-size: 13px;
+  line-height: 21px;
+}
+/*  --------------------------------------------------
+  :: MARCAS
+  -------------------------------------------------- */
+.marcas{
+  margin-top: 90px;
+}
+.marcas .item{
+  color: #fff;
+  text-align: center;
+}
+.marcas .item h3{
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.marcas .item p{
+  color: #888;
+  font-size: 11px;
+  font-family: 'Ubuntu';
+  line-height: 21px;
+}
